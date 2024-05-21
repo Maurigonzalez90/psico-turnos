@@ -1,0 +1,58 @@
+{
+    "Usuarios": [
+      {
+        "id": "1",
+        "name": "Mauricio",
+        "price": 5,
+        "count": 1,
+        "type": "breakfast",
+        "subType": "",
+        "image": "/assets/images/coffee.png"
+      },
+      {
+        "id": "2",
+        "name": "Nadia",
+        "price": 7,
+        "count": 1,
+        "type": "breakfast",
+        "subType": "",
+        "image": "/assets/images/latte.png"
+      },
+      {
+        "id": "3",
+        "name": "Lupe",
+        "price": 7,
+        "count": 1,
+        "type": "breakfast",
+        "subType": "",
+        "image": "/assets/images/latte.png"
+      },
+      {
+        "id": "4",
+        "name": "Lucas",
+        "price": 7,
+        "count": 1,
+        "type": "breakfast",
+        "subType": "",
+        "image": "/assets/images/latte.png"
+      },
+      {
+        "id": "5",
+        "name": "Ricardo",
+        "price": 7,
+        "count": 1,
+        "type": "breakfast",
+        "subType": "",
+        "image": "/assets/images/latte.png"
+      },
+      {
+        "id": "6",
+        "name": "Juan",
+        "price": 7,
+        "count": 1,
+        "type": "breakfast",
+        "subType": "",
+        "image": "/assets/images/latte.png"
+      }
+    ]
+}

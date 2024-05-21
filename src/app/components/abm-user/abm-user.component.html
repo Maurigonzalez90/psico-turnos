@@ -1,0 +1,27 @@
+<mat-card class="container">
+  <div class="search">
+    <form class="search-form" >
+      <mat-form-field class="example-full-width">
+        <mat-label>Buscar Paciente</mat-label>
+        <input
+          #input
+          type="text"
+          matInput
+          [formControl]="myControl"
+          [matAutocomplete]="auto"
+          (input)="filter()"
+          (focus)="filter()"
+        />
+        <mat-autocomplete requireSelection #auto="matAutocomplete">
+          <mat-option *ngFor="let user of filterUsers">
+            <option (click)="UserSelect($event)"> {{user}} </option>
+           </mat-option>
+        </mat-autocomplete>
+
+      </mat-form-field>
+    </form>
+  </div>
+  <div class="create-user">
+    <button mat-raised-button color="primary" onclick="createUser()">Crear Nuevo</button>
+  </div>
+</mat-card>
